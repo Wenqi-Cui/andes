@@ -112,6 +112,7 @@ class WTDTA1Model(Model):
 
         self.wt = AliasState(self.s1_y, tex_name=r'\omega_t')
 
+
         # `s2_y` is `wg`
         self.s2 = Integrator(u='-(Pe / s2_y) + s3_y - DAMP * (s2_y - w0) + pd',
                              T=self.Hg2,
