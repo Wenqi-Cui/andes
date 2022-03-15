@@ -88,7 +88,7 @@ class WTPTA1Model(Model):
         # self.wt = ExtAlgeb(model='RenGovernor', src='wt', indexer=self.rego,
         #                    export=False,
         #                    )
-        self.wt = ExtAlgeb(model='RenGovernor', src='wg', indexer=self.rego,
+        self.wt = ExtAlgeb(model='RenGovernor', src='wt', indexer=self.rego,
                            export=False,
                            )
         self.theta0 = ExtService(model='RenAerodynamics', src='theta0', indexer=self.rea,
